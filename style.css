@@ -7,13 +7,13 @@
   --hue-color:242;
 
   /* HSL COLOR MODE */
-  --skin-color:
-  --title-color:
-  --text-color:
-  --body-color:
-  --box-color:
-  --scroll-bar-color:
-  --scroll-thumb-color:
+  --skin-color: hsl(210, 65%, 11%);
+  --title-color: hsl(225, 71%, 88%);
+  --text-color: hsl(225, 31%, 74%);
+  --body-color: hsl(225, 20%, 61%);
+  --box-color: hsl(210, 60%, 16%);
+  --scroll-bar-color: hsl(210, 42%, 23%);
+  --scroll-thumb-color: hsl(213, 100%, 95%);
 
   /*-------------- FONT AND TYPOGRAPHY ---------------*/
   --body-font: 'Poppins', sans-serif;
