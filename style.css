@@ -1,0 +1,115 @@
+/*-------------- GOOGLE FONTS ---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/*-------------- VARIABLE CSS ---------------*/
+:root
+  /*---- Colors ----*/
+  --hue-color:242;
+
+  /* HSL COLOR MODE */
+  --skin-color:
+  --title-color:
+  --text-color:
+  --body-color:
+  --box-color:
+  --scroll-bar-color:
+  --scroll-thumb-color:
+
+  /*-------------- FONT AND TYPOGRAPHY ---------------*/
+  --body-font: 'Poppins', sans-serif;
+
+  /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+  --biggest-font-size: 3rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: .875rem;
+  --smaller-font-size: .813rem;
+
+  /*-------------- FONT WEIGHT ---------------*/
+  --font-medium: 500;
+  --font-bold: 600;
+
+  /*-------------- MARGINS BOTTOM ---------------*/
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+ /*-------------- Z INDEX ---------------*/
+  --z-fixed: 10;
+  --z-modal: 100;
+
+/*-------------- RESPONSIVE TYPOGRAPHY ---------------*/
+@media screen and (max-width:1024px){
+  :root{
+    --biggest-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+  }
+}
+
+/*-------------- BASE ---------------*/
+*  {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1, h2, h3 {
+  color: var(--title-color);
+  font-weight: var(--font-bold);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}  
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+/*-------------- LAYOUT ---------------*/
+
+/*-------------- REUSABLE CSS CLASSES ---------------*/
+
+/*-------------- SIDEBAR ---------------*/
+
+/*-------------- MAIN ---------------*/
+
